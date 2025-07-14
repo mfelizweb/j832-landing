@@ -1,18 +1,18 @@
- # J832 Protocol Landing
+  # J832 Protocol Landing
 
-Landing page oficial de [J832 Protocol](https://j832.xyz) — Un protocolo blockchain para historial inmutable, auditoría y transparencia de acciones críticas.
+Official landing page for [J832 Protocol](https://j832.xyz) — a blockchain protocol for immutable event history, auditability, and transparent critical action tracking.
 
 [![Deploy on Vercel](https://vercel.com/button)](https://vercel.com/new/import?s=https://github.com/mfelizweb/j832-landing)
 
 ---
 
-## 🚀 Demo online
+## 🚀 Live Demo
 
-[https://j832.xyz](https://j832.xyz)
+[https://j832.xyz](https://j832.xyz) <!-- Update this when your site is live -->
 
 ---
 
-## Tecnologías
+## Technologies
 
 - [Next.js](https://nextjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
@@ -21,7 +21,7 @@ Landing page oficial de [J832 Protocol](https://j832.xyz) — Un protocolo block
 
 ---
 
-## 🛠️ Instalación y desarrollo
+## 🛠️ Getting Started
 
 ```bash
 npm install
