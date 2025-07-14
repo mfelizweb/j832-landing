@@ -9,18 +9,10 @@
 ---
 
 ## 🚀 Live Demo
- 
-
- 
-[https://j832.xyz](https://j832.xyz)  
-=======
+  
 [https://j832.xyz](https://j832.xyz)  
 =======
  
-[https://j832.xyz](https://j832.xyz)  
-=======
-[https://j832.xyz](https://j832.xyz) 
-
  
 
  
