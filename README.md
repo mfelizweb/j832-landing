@@ -8,7 +8,7 @@ Official landing page for [J832 Protocol](https://j832.xyz) — a blockchain pro
 
 ## 🚀 Live Demo
 
-[https://j832.xyz](https://j832.xyz) <!-- Update this when your site is live -->
+[https://j832.xyz](https://j832.xyz)  
 
 ---
 
