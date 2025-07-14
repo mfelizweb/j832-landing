@@ -31,7 +31,7 @@ export default function Footer() {
             </svg>
           </a>
           <a
-            href="https://discord.gg/tCZCpGnC"
+            href="https://discord.gg/tgzPhs46"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[#00FF90] hover:text-white/90 transition"

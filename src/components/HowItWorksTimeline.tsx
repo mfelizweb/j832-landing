@@ -52,10 +52,9 @@ export default function HowItWorksTimeline() {
 
       <div className="relative w-full flex flex-col items-center">
          <div className="absolute left-1/2 top-0 h-full w-1.5 bg-[#00FF90] opacity-30 z-0 -translate-x-1/2 rounded"></div>
-         {/* Línea animada/step-dots los puedes dejar igual si no dependen de hooks en map */}
-         {/* Si necesitas animación de línea progresiva, puedes agregar lógica con context o custom hook */}
+          
+<div className="absolute left-1/2 top-0 w-5 z-10 -translate-x-1/2 pointer-events-none">
 
-        <div className="absolute left-1/2 top-0 w-5 z-20 -translate-x-1/2 pointer-events-none">
           {steps.map((_, i) => (
             <motion.div
               key={i}
@@ -111,7 +110,7 @@ export default function HowItWorksTimeline() {
                     flex ${cardAlignMobile} ${cardAlignDesktop}
                     ${cardWidthMobile} ${cardWidthDesktop}
                   `}
-                  style={{ zIndex: 2 }}
+                  style={{ zIndex: 20 }}
                 >
                   <div className={`
                     flex flex-col gap-3
