@@ -30,7 +30,7 @@ export default function CommunityCta() {
           <Twitter className="w-5 h-5" /> Follow on X
         </a>
         <a
-          href="https://discord.gg/tgzPhs46"
+          href="https://discord.gg/ASxZJ6Gtrh"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-center gap-2 bg-[#5865F2] hover:bg-[#4954c1] text-white font-semibold px-5 md:px-6 py-3 rounded-xl text-base md:text-lg shadow-lg transition-all w-full sm:w-auto"
