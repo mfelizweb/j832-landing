@@ -60,7 +60,7 @@ export default function HowItWorksTimeline() {
               key={i}
               className="absolute left-1/2 -translate-x-1/2"
               style={{
-                top: `calc(${i} * ${SECTION_HEIGHT}px)`
+                top: `calc(${i} * ${SECTION_HEIGHT}px + 24px)`
               }}
               initial={false}
               animate={{

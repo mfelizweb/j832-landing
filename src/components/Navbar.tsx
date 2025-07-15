@@ -22,9 +22,9 @@ export default function Navbar() {
   const handleMenuClick = () => setMenuOpen(false);
 
   return (
-<nav className="fixed top-0   z-[999] w-full bg-black text-white border-b border-white/10 px-4 sm:px-6 py-3 md:py-4 flex items-center justify-between overflow-x-hidden  ">
+<nav className="fixed top-0   z-[999] w-full bg-black text-white border-b border-white/10 px-4 sm:px-6 py-3 md:py-4 flex items-center justify-between   ">
       
-      <div className="flex items-center justify-between  ">
+      <div className="flex items-center justify-between w-full  ">
         <Link href="/" className="flex items-center space-x-2" onClick={handleMenuClick}>
           <Image src="/j832-logo.png" alt="J832 Logo" width={32} height={32} />
           <span className="text-xl font-bold">J832 Protocol</span>
@@ -54,17 +54,17 @@ export default function Navbar() {
 
      
   <div
-  className={`
-    ${menuOpen ? 'flex' : 'hidden'}
-    md:flex md:items-center
-    flex-col md:flex-row
-    absolute md:static top-[72px] left-0 w-full md:w-auto
-    bg-black/95 md:bg-transparent
-    p-8 md:p-0 z-[999]
-    space-y-6 md:space-y-0 md:space-x-6
-    transition-all duration-300
-    max-h-[80vh] overflow-y-auto
-  `}
+    className={`
+      ${menuOpen ? 'flex' : 'hidden'}
+      md:flex md:items-center
+      flex-col md:flex-row
+      fixed md:static top-[56px] left-0 w-full md:w-auto
+      bg-black/95 md:bg-transparent
+      p-4 md:p-0 z-[999]
+      space-y-6 md:space-y-0 md:space-x-6
+      transition-all duration-300
+      max-h-[80vh] overflow-y-auto
+    `}
 >
         {menuSections.map(({ id, label }) => (
           <a
