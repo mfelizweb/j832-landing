@@ -16,8 +16,8 @@ export default function Home() {
       <Hero />
       <UseCases />
       <HowItWorksTimeline />
-      <SdkDemo />
       <AboutSection />
+      <SdkDemo />
       <FlowAnimation />
       <Roadmap />
       <FaqSection />

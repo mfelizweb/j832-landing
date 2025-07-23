@@ -89,10 +89,11 @@ export default function HeroSection() {
             View on GitHub
           </a>
           <a
-            href="#sdk-demo"
+            href="#how-j832-works"
             className="w-full md:w-auto bg-white hover:bg-[#00cc72] text-black font-semibold px-8 py-4 rounded-xl text-lg shadow-lg transition-all flex items-center justify-center gap-2"
           >
-            View Demo
+          Audit J832
+          
           </a>
         </motion.div>
       </div>

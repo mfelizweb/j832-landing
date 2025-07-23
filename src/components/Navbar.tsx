@@ -9,7 +9,7 @@ import useScrollSpy from '@/hooks/useScrollSpy';
 
 const menuSections = [
   { id: "how-it-works", label: "How It Works" },
-  { id: "sdk-demo", label: "SDK Demo" },
+ 
   { id: "roadmap", label: "Roadmap" },
   { id: "faq", label: "FAQ" },
 ];
@@ -24,7 +24,7 @@ export default function Navbar() {
   return (
 <nav className="fixed top-0   z-[999] w-full bg-black text-white border-b border-white/10 px-4 sm:px-6 py-3 md:py-4 flex items-center justify-between   ">
       
-      <div className="flex items-center justify-between w-full  ">
+<div className="w-full md:w-auto flex items-center justify-between">
         <Link href="/" className="flex items-center space-x-2" onClick={handleMenuClick}>
           <Image src="/j832-logo.png" alt="J832 Logo" width={32} height={32} />
           <span className="text-xl font-bold">J832 Protocol</span>
